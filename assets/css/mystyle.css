@@ -1,0 +1,224 @@
+body {
+	padding-top: 0px !important;
+	font-family: Leelawadee,Tahoma,Arial;
+}
+.headerpage{
+	background-color:#FF6633;
+	height: 110px;
+	color:#FFFFFF;
+}
+.h2Header{
+	margin-top: 0px !important;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.navbar-brand{
+	padding: 12px;
+}
+.btn-group{
+	margin-top:10px !important;
+	padding-left: 10px;
+}
+.hd1{
+	background-color:#FF6633;
+	color:#FFFFFF;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus
+{
+	background-color: #FF6633!important;
+	border-color: #FF6633!important;
+}
+.pagination>li>a, .pagination>li>span{
+	color: #FF6633;
+}
+.pagination>li>a, .pagination>li>span {
+	color: #555555!important;
+}
+.headerpage2{
+	background-color:#444444;
+	height: 20px;
+	color:#FFFFFF;
+	margin-bottom: 10px;
+}
+.navbar
+{
+	margin-bottom: 0px!important;
+}
+.clickable
+{
+    cursor: pointer;
+}
+
+.clickable .glyphicon
+{
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px
+}
+
+.panel-heading span
+{
+    margin-top: -23px;
+    font-size: 15px;
+    margin-right: -9px;
+}
+a.clickable { color: inherit; }
+a.clickable:hover { text-decoration:none; }
+.navbar{
+	border-radius: 0px!important;
+}
+.panel{
+	border-radius: 0px!important;
+}
+.panel-primary>.panel-heading{
+	background-color:#FF6633!important;
+	border-color:#D1CA1C!important;
+}
+.panel-primary
+{
+	border:0;
+}
+.panel
+{
+	margin-bottom: 10px!important;
+}
+
+/* Breadcrumbs from http://bootsnipp.com/snippets/featured/triangle-breadcrumbs-arrows */
+.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+.btn-breadcrumb .btn {
+  padding:6px 12px 6px 24px;
+}
+.btn-breadcrumb .btn:first-child {
+  padding:6px 6px 6px 10px;
+}
+.btn-breadcrumb .btn:last-child {
+  padding:6px 18px 6px 24px;
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+  border-left: 10px solid #fff;
+}
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+  border-left: 10px solid #ccc;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+  border-left: 10px solid #ebebeb;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+  border-left: 10px solid #adadad;
+}
+
+/* The responsive part */
+
+.btn-breadcrumb > * > div {
+    /* With less: .text-overflow(); */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+
+.btn-breadcrumb > *:nth-child(n+2) {
+  display:none;
+}
+
+/* === For phones =================================== */
+@media (max-width: 767px) {
+    .btn-breadcrumb > *:nth-last-child(-n+2) {
+        display:block;
+    } 
+    .btn-breadcrumb > * div {
+        max-width: 60px;
+    }
+}
+
+/* === For tablets ================================== */
+@media (min-width: 768px) and (max-width:991px) {
+    .btn-breadcrumb > *:nth-last-child(-n+4) {
+        display:block;
+    } 
+    .btn-breadcrumb > * div {
+        max-width: 100px;
+    }
+}
+
+/* === For desktops ================================== */
+@media (min-width: 992px) {
+    .btn-breadcrumb > *:nth-last-child(-n+6) {
+        display:block;
+    } 
+    .btn-breadcrumb > * div {
+        max-width: 170px;
+    }
+}
+.panel-body{
+  padding-bottom: 0px!important;
+}
+.well
+{
+  background-color: #FFFFFF!important;
+  margin-bottom: 2px!important;
+}
+.form-group
+{
+  margin-bottom: 0px!important;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+  background-color:#FF6633!important; 
+}
+.btn-primary{
+  background-color:#FF6633!important; 
+  border-color: #FF6633!important;
+}
+td{
+  text-align: left!important;
+}
+
+/*menu bar by tck*/
+.navbar-right{
+	height:40px;
+}
+.navbar-form{
+	margin-top:auto!important;
+	margin-bottom:auto!important;
+}
+.container-fluid>.navbar-collapse {
+margin-right: 0;
+margin-left: 0;
+float: left;
+width: 100%;
+}
+.navbar-nav {
+margin: 7.5px 15px 7.5px 15px!important
+}
+/*end menu bar by tck*/
